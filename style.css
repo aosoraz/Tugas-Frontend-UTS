@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.nav {
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    border-bottom: 1.5px solid lightgray;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+
+.logo{
+    font-size: large;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 16px;
+    padding-right: 12px;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links {
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    padding-right: 16px;
+    font-family: 'Poppins';
+}
+
+.links a {
+    color: black;
+    opacity: 70%;
+    text-decoration: none;
+}
+
+.links a:hover {   
+    opacity: 100%; 
+    transition: opacity 0.5s;
+    color: black;
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.firstSection {
+    background-color: whitesmoke;
+    font-family: 'Raleway', sans-serif;
+    height: 650px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.firstSection .text {
+    display: flex;
+    flex-direction: column;
+}
+
+.text p {
+    font-size: 32px;
+    margin: 0;
+}
+
+.bottom {
+    font-size: 32px;
+    margin: 0;
+    padding-top: 32px;
+}
+
+.secondSection {
+    font-family: 'hack';
+    font-size: 18px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;    
+    padding-left: 150px;
+    padding-top: 100px;
+}
+
+.secondSection p {
+    margin: 0;
+    padding: 8px;
+}
+
+.table {
+    font-family: 'Poppins';
+    font-size: 20px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid grey;
+}
+
+table {
+    width: 50%;
+    padding: 10px;
+}
+
+table, th, td {
+    padding: 0;
+    margin: 0;
+    border: 1px solid black;
+  }
+
+th, td {
+    text-align: center;
+    padding: 5px;
+    padding-right: 10px;
+}
+
+
+.game, .band, .mobil p{
+    font-size: 22px;
+}
+
+.game {
+    border-bottom: 1px solid black;
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+    background-color: whitesmoke;
+}
+
+.game h3 {
+    margin: 0;
+}
+
+.osu h4 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.content p {
+    padding-left: 10px;
+    margin: 0;
+}
+
+.osu img {
+    height: 300px;
+    width: 500px;
+}
+
+.fgo {
+    margin-top: 10px;
+}
+
+.fgo h3 {
+    margin-bottom: 10px;
+}
+
+.fgo img {
+    height: 250px;
+    width: 500px;
+}
+
+.csgo img {
+    height: 300px;
+    width: 500px;
+}
+
+.csgo h3 {
+    margin-bottom: 10px;
+}
+
+.band {
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+    background-color: whitesmoke;
+    border-bottom: 1px solid black;
+}
+
+.band h4 {
+    text-align: right;
+    margin-bottom: 10px;
+    padding-right: 10px;
+}
+
+.band h3 {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.covet {
+    margin-bottom: 10px;
+}
+
+.covet img {
+    padding-left: 10px;
+    height: 300px;
+    width: 500px;
+}
+
+.covet h4 {
+    margin-top: 5px;
+}
+
+.covet p {
+    text-align: right;
+}
+
+.polyphia img {
+    padding-left: 10px;
+    height: 400px;
+    width: 500px;
+}
+
+.polyphia p {
+    text-align: right;
+}
+
+.ichika img {
+    height: 300px;
+    width: 500px;
+    padding-left: 10px;
+}
+
+.ichika p {
+    text-align: right;
+}
+
+.mobil {
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+    background-color: whitesmoke;
+    border-bottom: 1px solid black;
+}
+
+.mobil h3 {
+    margin: 0;
+    margin-top: 20px;
+    font-size: 28px;
+}
+
+.mobil h4 {
+    margin: 0;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.mobil img {
+    height: 300px;
+    width: 600px;
+}
+
+.gt86 {
+    padding-top: 10px;
+}
+
+.ae86 {
+    padding-top: 10px;
+}
+
+.form {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.form p {
+    font-size: 32px;
+    margin: 0;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+#name {
+    height: 20px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#adress {
+    height: 20px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#email {
+    height: 20px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.button {
+    height: 40px;
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: white;
+}
+
+.footer {
+    height: 50px;
+    width: 100%;
+    border-top: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
