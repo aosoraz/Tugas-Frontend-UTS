@@ -6,3 +6,5 @@ Membuat navbar dan page lainnya, juga membuat style css.
 
 17/10/23
 Membuat halaman kedua berisi table dan hal hal favorit.
+
+https://aosoraz.github.io/Tugas-Frontend-UTS/
