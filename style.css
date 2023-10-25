@@ -99,6 +99,30 @@ body {
     padding: 8px;
 }
 
+.skills {
+    background-color: whitesmoke;
+    height: 300px;
+    width: 100%;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.skills p {
+    position: relative;
+    top: 50px;
+    left: 32%;
+}
+
+.skills ul {
+    top: 50px;
+    left: 32%;
+    position: relative;
+}
+
+.skills li {
+    list-style-type: circle;
+}
+
 .table {
     font-family: 'Poppins';
     font-size: 20px;
@@ -123,7 +147,7 @@ table, th, td {
 
 th, td {
     text-align: center;
-    padding: 5px;
+    padding: 10px;
     padding-right: 10px;
 }
 
@@ -280,6 +304,7 @@ th, td {
 }
 
 .form {
+    background-color: whitesmoke;
     height: 600px;
     display: flex;
     flex-direction: column;
@@ -338,7 +363,7 @@ th, td {
 .footer {
     height: 50px;
     width: 100%;
-    border-top: 1px solid gray;
+    border-top: 1px solid lightgray;
     display: flex;
     justify-content: center;
     align-items: center;
